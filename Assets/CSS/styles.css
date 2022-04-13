@@ -1,0 +1,11 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    color: white;
+    font-weight: bold;
+    padding: 24px;
+    text-align: center;
+    background-image: linear-gradient(to right, #0067a5, #561D5E);
+}
