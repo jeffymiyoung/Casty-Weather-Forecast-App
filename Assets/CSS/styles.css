@@ -1,11 +1,57 @@
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 
 header {
-    color: white;
     font-weight: bold;
-    padding: 24px;
     text-align: center;
+    color: white;
+    padding: 24px;
     background-image: linear-gradient(to right, #0067a5, #561D5E);
+}
+
+h2, h3 {
+    font-weight: 500;
+}
+
+.container {
+    margin-top: 16px;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.city-input {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 12px;
+    border-width: thin;
+}
+
+.search-title {
+    justify-content: center;
+}
+
+.search-btn {
+    background-color: #87CEEB;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.fa-magnifying-glass {
+    padding-left: 16px;
+}
+
+.clear-history {
+    background-color: #FF3126;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.fa-trash-can {
+    padding-left: 16px;
 }
