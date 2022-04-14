@@ -33,12 +33,10 @@
 
                 <!-- Search Form -->
                 <form id="location-input">
-
                     <!-- Input Text Field -->
                     <input type="text" id="city-input" class="city-input col-12 rounded" placeholder="City Name" aria-label="City Search" aria-describedby="search-button">
                     <!-- Search Button -->
                     <button id="search-btn" class="btn search-btn col-12">Search<i class="fa-solid fa-magnifying-glass"></i></button>
-
                 </form>
 
                 <!-- Horizontal Rule Break from Input Form to Search History -->
@@ -48,6 +46,7 @@
                 <ul class="search-history col-12">
 
                 </ul>
+
                 <!-- Clear History Button -->
                 <button id="clear-history" class="btn clear-history col-12">Clear History<i class="fa-solid fa-trash-can"></i></button>
             </div>
@@ -56,11 +55,13 @@
             <div class="col-9 col-sm-8">
                 <!-- Row to allow Selected City and Future Forecast to be it's own column -->
                 <div class="row">
+
                     <!-- Selected City Forecast Area -->
                     <div id="current-weather" class="col-12 border border-dark rounded">
                         <!-- Selected City Title -->
                         <h3 id="selected-city" class="selected-city">Edison (4/13/21)</h3>
                         <br>
+
                         <!-- Current Day Forecast -->
                         <div class="current-forecast">
                             <p>Temperature: <span id="temperature" class="current"></span></p>
@@ -71,11 +72,58 @@
                     </div>
 
                     <!-- Future Forecast Area -->
-                    <div id="future-weather" class="col-12">
+                    <div id="future-weather" class="col-12 future-weather">
+                        <h4 class="future-title">5-Day Forecast:</h4>
+                        
+                        <!-- Row for 5 Future Date Forecast-->
+                        <div class="row text-white">
+                            <!-- Day 1 -->
+                            <div class="col-2 future-forecast">
+                                <p id="future-date-0" class="future-date"></p>
+                                <p id="future-icon-0"></p>
+                                <p>Temp: <span id="future-temp-0"></span></p>
+                                <p>Wind: <span id="future-wind-0"></span></p>
+                                <p>Humidity: <span id="future-humidity-0"></span></p>
+                            </div>
 
+                            <!-- Day 2 -->
+                            <div class="col-2 future-forecast">
+                                <p id="future-date-1" class="future-date"></p>
+                                <p id="future-icon-1"></p>
+                                <p>Temp: <span id="future-temp-1"></span></p>
+                                <p>Wind: <span id="future-wind-1"></span></p>
+                                <p>Humidity: <span id="future-humidity-1"></span></p>
+                            </div>
+
+                            <!-- Day 3 -->
+                            <div class="col-2 future-forecast">
+                                <p id="future-date-2" class="future-date"></p>
+                                <p id="future-icon-2"></p>
+                                <p>Temp: <span id="future-temp-2"></span></p>
+                                <p>Wind: <span id="future-wind-2"></span></p>
+                                <p>Humidity: <span id="future-humidity-2"></span></p>
+                            </div>
+
+                            <!-- Day 4 -->
+                            <div class="col-2 future-forecast">
+                                <p id="future-date-3" class="future-date"></p>
+                                <p id="future-icon-3"></p>
+                                <p>Temp: <span id="future-temp-3"></span></p>
+                                <p>Wind: <span id="future-wind-3"></span></p>
+                                <p>Humidity: <span id="future-humidity-3"></span></p>
+                            </div>
+
+                            <!-- Day 5 -->
+                            <div class="col-2 future-forecast">
+                                <p id="future-date-4" class="future-date"></p>
+                                <p id="future-icon-4"></p>
+                                <p>Temp: <span id="future-temp-4"></span></p>
+                                <p>Wind: <span id="future-wind-4"></span></p>
+                                <p>Humidity: <span id="future-humidity-4"></span></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -86,6 +134,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <!-- Local Script File -->
     <script src="./Assets/JS/script.js"></script>
-
 </body>
 </html>
