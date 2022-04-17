@@ -1,3 +1,6 @@
+/* Styling for Casty */
+
+/* Whole Page */
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +8,7 @@
     box-sizing: border-box;
 }
 
+/* Header Only */
 header {
     font-weight: bold;
     text-align: center;
@@ -13,18 +17,22 @@ header {
     background-image: linear-gradient(to right, #0067a5, #561D5E);
 }
 
+/* H2 and H3 Texts */
 h2, h3 {
     font-weight: 500;
 }
 
+/* Search | Clear History Button Column  */
 .container {
     margin-top: 16px;
 }
 
+/*  Targets all buttons */
 .btn {
     border-radius: 5px;
 }
 
+/* Search Field */
 .city-input {
     margin-top: 8px;
     margin-bottom: 8px;
@@ -50,6 +58,21 @@ h2, h3 {
     padding-left: 16px;
 }
 
+/* Past Search History List */
+.search-history-item {
+    list-style: none;
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.search-history-item:hover {
+    background-color: #BEBEBE;
+    cursor: pointer;
+}
+
+/* Clear Button */
 .clear-btn {
     background-color: #ff291e;
     margin-top: 8px;
@@ -64,6 +87,13 @@ h2, h3 {
     padding-left: 16px;
 }
 
+/* UV Index */
+.uv {
+    padding: 8px;
+    border-radius: 15px;
+}
+
+/* Future Forecast Section */
 .future-weather {
     margin-top: 8px;
 }
