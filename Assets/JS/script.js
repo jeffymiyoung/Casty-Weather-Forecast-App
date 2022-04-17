@@ -211,7 +211,6 @@ function clearHistory(event) {
 };
 
 // UI Clickable
-
 $(searchButton).on("click", displayWeather);
 $(document).on("click", searchHistory);
 $(window).on("load", loadPreviousCity);
