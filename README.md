@@ -16,7 +16,7 @@ If you'd like to revisit a past search, just click on any `City Name` from the p
 
 ## Screenshot: 
 https://jeffymiyoung.github.io/Casty-Weather-Forecast-App/
-![This is the homepage for the Casty - Weather Forecasting Application]
+![This is the homepage for the Casty - Weather Forecasting Application](./Assets/Images/screenshot.JPG);
 
 ## Author(s):
 * Jeffrey Young
